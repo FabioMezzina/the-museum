@@ -1,0 +1,20 @@
+.social {
+  display: flex;
+  margin-left: 2rem;
+  background-color: rgb(214, 0, 28);
+  .lang {
+    padding: 0.8rem 1rem;
+    border-right: 2px solid rgba(0, 0, 0, 0.05);
+    a {
+      font-weight: 500;
+    }
+  }
+  ul {
+    padding: 0.8rem 0;
+    display: flex;
+    list-style: none;
+    li {
+      padding: 0 1rem;
+    }
+  }
+}

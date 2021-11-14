@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  color: rgb(0, 0, 0) ;
+  text-decoration: none;
+}

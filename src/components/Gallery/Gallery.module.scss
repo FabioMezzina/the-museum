@@ -1,0 +1,15 @@
+.gallery {
+  padding: 0 4rem 4rem;
+  .gallery-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .gallery {
+    padding: 0 2rem 4rem;
+  }
+}

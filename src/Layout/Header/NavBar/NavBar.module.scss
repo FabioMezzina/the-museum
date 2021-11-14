@@ -1,0 +1,27 @@
+.navbar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 4rem;
+  width: 100%;
+  color: white;
+  h1 {
+    margin-right: auto;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+  a {
+    color: white;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    padding: 2rem;
+  }
+}

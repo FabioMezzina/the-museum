@@ -1,0 +1,27 @@
+.filter {
+  display: flex;
+  justify-content: flex-end;
+  padding: 6rem 0 4rem;
+  h2 {
+    flex-grow: 1;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .select {
+    display: flex;
+    align-items: center;
+    flex-basis: 33%;
+  }
+}
+
+@media (max-width: 576px) {
+  .filter {
+
+    h2 {
+
+    }
+    .select {
+
+    }
+  }
+}
